@@ -1,18 +1,19 @@
 #include "main.h"
 
-/**
- * print_alphanet - Make the alphabet
- * Return: void
- */
 
-void print_alphabet(void)
+	/**
+	 * print_alphabet - print all alphabet in lowercase
+	 */
 
-{
-	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	void print_alphabet(void)
 	{
-		_putchar(c);
+		char letter;
+
+
+		for (letter = 'a'; letter <= 'z'; letter++)
+			_putchar(letter);
+
+
+		_putchar('\n');
 	}
-	_putchar('\n');
-}
